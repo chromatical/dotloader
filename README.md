@@ -1,6 +1,8 @@
 # dotloader
 A fun animated loading bar for the web.
 
+![dotloader Demo](http://chromaticaldesign.com/sites/default/files/dotloader.gif)
+
 ## Usage
 
 Include [dotloader.min.css](dotloader.min.css) in your webpage.
