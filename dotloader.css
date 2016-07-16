@@ -1,0 +1,110 @@
+.dl-dot {
+width: 10px;
+height: 10px;
+border-radius: 100%;
+background-color: black;
+display: inline-block;
+position: relative;
+-o-animation: dotloader 1.5s infinite;
+-webkit-animation: dotloader 1.5s infinite;
+-moz-animation: dotloader 1.5s infinite;
+animation: dotloader 1.5s infinite;
+}
+.dl-dot1 {
+  -o-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.dl-dot2 {
+  -o-animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  animation-delay: .1s;
+}
+.dl-dot3 {
+  -o-animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  animation-delay: .2s;
+}
+.dl-dot4 {
+  -o-animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  animation-delay: .3s;
+}
+.dl-dot5 {
+  -o-animation-delay: .4s;
+  -webkit-animation-delay: .4s;
+  -moz-animation-delay: .4s;
+  animation-delay: .4s;
+}
+@-o-keyframes dotloader {
+    0% {
+      top:0px;
+    }
+    12% {
+      top:-5px;
+    }
+    24% {
+      top:3px;
+    }
+    36% {
+      top:0px;
+    }
+    100% {
+      top:0px;
+    }
+}
+@-webkit-keyframes dotloader {
+    0% {
+      top:0px;
+    }
+    12% {
+      top:-5px;
+    }
+    24% {
+      top:3px;
+    }
+    36% {
+      top:0px;
+    }
+    100% {
+      top:0px;
+    }
+}
+@-moz-keyframes dotloader {
+    0% {
+      top:0px;
+    }
+    12% {
+      top:-5px;
+    }
+    24% {
+      top:3px;
+    }
+    36% {
+      top:0px;
+    }
+    100% {
+      top:0px;
+    }
+}
+@keyframes dotloader {
+    0% {
+      top:0px;
+    }
+    12% {
+      top:-5px;
+    }
+    24% {
+      top:3px;
+    }
+    36% {
+      top:0px;
+    }
+    100% {
+      top:0px;
+    }
+}
