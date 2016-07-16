@@ -26,6 +26,6 @@ Use the following HTML to show dotloader.
 By default, the dotloader dots will be colored black.  This can be easily changed by overriding the ````background-color```` css property.
 ````css
 .dl-dot {
-  background-color:white;
+  background-color: white;
 }
 ````
